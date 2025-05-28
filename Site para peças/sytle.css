@@ -1,0 +1,76 @@
+:root {
+  --verde-fundo: #9bbc81;
+  --bege-conteudo: #fdf0d7;
+  --laranja-titulo: #f7934c;
+  --azul-titulo: #031e44;
+  --texto-principal: #333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--verde-fundo);
+  color: var(--texto-principal);
+}
+
+header {
+  background-color: var(--bege-conteudo);
+  padding: 20px;
+  text-align: center;
+  color: var(--laranja-titulo);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  color: var(--laranja-titulo);
+}
+
+h2 {
+  color: var(--azul-titulo);
+  font-size: 1.6em;
+  margin-top: 10px;
+}
+
+main {
+  background-color: var(--bege-conteudo);
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+/* ✅ Estilo para o <p> */
+p {
+  font-size: 1.2em;
+  color: var(--azul-titulo);
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.download-link {
+  display: block;
+  margin: 15px 0;
+  padding: 12px 18px;
+  background-color: var(--laranja-titulo);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-size: 1.1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.download-link:hover {
+  background-color: #d97e36;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: var(--bege-conteudo);
+  color: var(--texto-principal);
+  margin-top: 40px;
+}
